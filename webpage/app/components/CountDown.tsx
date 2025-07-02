@@ -10,7 +10,7 @@ interface TimeLeft {
 }
 
 // Move festival date outside component to prevent re-creation
-const FESTIVAL_DATE = new Date('2025-12-13T15:00:00-05:00');
+const FESTIVAL_DATE = new Date('2025-11-15T12:00:00-05:00');
 
 export default function CountDown() {
   const countdownSection = useIntersectionObserver();
