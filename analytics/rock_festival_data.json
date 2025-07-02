@@ -1,0 +1,418 @@
+{
+  "festival_name": "Festival Internacional Rock al Rio",
+  "location": "Rionegro, Antioquia, Colombia",
+  "venue": "Parqueadero del Estadio Alberto Grisales",
+  "description": "Annual international rock festival held in Rionegro, Antioquia, Colombia",
+  "years": {
+    "2009": {
+      "edition": "IV",
+      "dates": "November 21-22, 2009",
+      "tagline": "El festival de Rock más grande del oriente antioqueño",
+      "start_time": "10:00 a.m.",
+      "theme": "Diversidad y Tolerancia",
+      "schedule": {
+        "saturday": {
+          "date": "November 21, 2009",
+          "bands": [
+            "Grujula",
+            "Virgenes",
+            "Maligros H2O",
+            "Restos de Tragedia",
+            "Caos Necesario",
+            "Redentor",
+            "Anarkore",
+            "Maware",
+            "Los Suziox",
+            "La Furruska"
+          ]
+        },
+        "sunday": {
+          "date": "November 22, 2009", 
+          "bands": [
+            "Falling Sarcasktik",
+            "Contagio",
+            "Grunge",
+            "Imperio de los Muertos",
+            "Atrapados en el Tiempo",
+            "Plankore",
+            "Chokes",
+            "Cromlech",
+            "Aphangak"
+          ]
+        }
+      },
+      "international_headliner": {
+        "band": "Onslaught",
+        "origin": "Inglaterra (England)",
+        "genre": "Thrash Metal"
+      },
+      "entry_requirement": "1 kilo de grano (1 kilogram of grain donation)",
+      "special_features": [
+        "CD de Rock al Rio 2009 para las primeras 50 personas que lleguen al evento",
+        "Charitable entry through grain donation instead of money",
+        "Mix of local Colombian and international acts"
+      ],
+      "visual_elements": {
+        "design_theme": "Skull and crossbones with guitars",
+        "color_scheme": "Red and orange gradient background",
+        "logo_style": "Drum kit with skull mascot"
+      }
+    },
+    "2010": {
+      "dates": "November 10-11, 2010",
+      "saturday_bands": [
+        "Massacre Mortar",
+        "La Carabina",
+        "D.P.I.",
+        "Santesis", 
+        "Wanady",
+        "San Andoloth",
+        "Kelaia",
+        "Sangre Isabel",
+        "Todos Los Perros",
+        "Anticrst",
+        "Brujos de Frio",
+        "Skidad Sssanr"
+      ],
+      "sunday_bands": [
+        "La Derecha",
+        "Pasocanche", 
+        "Koyi Bluto",
+        "Endriago",
+        "La Maniganga",
+        "Barrera de Plomo",
+        "La Septima",
+        "Sobredosis",
+        "Bolonia del Diablo",
+        "Fith of Thrash",
+        "Masacre",
+        "Inquisition"
+      ],
+      "skateboard_competition": true,
+      "entry_requirement": "1 kg de material reciclable"
+    },
+    "2013": {
+      "edition": "VII",
+      "dates": "November 9-10, 2013",
+      "theme": "Diversidad y Tolerancia",
+      "saturday_schedule": {
+        "13:00": "Mascara",
+        "13:45": "Peregrinos", 
+        "14:30": "Sutra",
+        "15:15": "The Other Planet",
+        "16:00": "Maware",
+        "16:45": "Civil Criminal",
+        "17:30": "Via Cerrada",
+        "18:30": "Ezkizofrenia",
+        "19:20": "Frankie Ha Muerto",
+        "20:20": "Unsigned Poems",
+        "21:05": "Arbol de Ojos",
+        "22:05": "Guillotina",
+        "22:50": "Masacre"
+      },
+      "sunday_schedule": {
+        "13:00": "Consternacion",
+        "13:45": "Behind the Throne",
+        "14:30": "Memoria Insuficiente", 
+        "15:30": "Mobydick",
+        "16:15": "Inframundox",
+        "17:00": "Muyzkkubun",
+        "17:45": "Chokke",
+        "18:50": "Ataque en Contra",
+        "19:35": "Eternal",
+        "20:20": "Nukleus",
+        "21:00": "Pornomotora",
+        "22:00": "Almalions",
+        "22:45": "Outernational"
+      },
+      "skateboard_tournament": true,
+      "entry_requirement": "1 kg de material reciclable"
+    },
+    "2014": {
+      "edition": "IX",
+      "dates": "November 8-9, 2014",
+      "theme": "Estados Alterados",
+      "bands": [
+        "Matute",
+        "Un Rojo Reggae Band", 
+        "Aphangak",
+        "Alfonso Espriella",
+        "Revolver Plateado",
+        "New State",
+        "Laudello",
+        "Carrera 52",
+        "Autogestion", 
+        "Hoja CK",
+        "La Fragua",
+        "Su Silencio Permanece",
+        "La Reforma",
+        "Carajo",
+        "Mojiganga",
+        "Austin's Phobias",
+        "Duanima",
+        "Eknymosis",
+        "Athanator",
+        "Consulado Popular",
+        "Pandemia Mental",
+        "La Furruska",
+        "Son Indeleble",
+        "L-Mental",
+        "Kukos Band",
+        "Sobredosis"
+      ],
+      "skateboard_tournament": "7mo Torneo de Skateboard Rock al Rio",
+      "entry_requirement": "1 kg de material reciclable"
+    },
+    "2015": {
+      "edition": "X",
+      "dates": "November 14-15, 2015", 
+      "theme": "Una Decada de Rock!",
+      "saturday_bands": [
+        "Reencarnacion",
+        "Abimelec I.R.A",
+        "A.P.H",
+        "Atrapados en el Tiempo",
+        "Tappan",
+        "Lignina",
+        "Lisa Reggae",
+        "Enepei",
+        "Le Big Sur",
+        "Alkaman",
+        "Esteban Gira",
+        "Aborigenes"
+      ],
+      "sunday_bands": [
+        "Julien K",
+        "Aurora",
+        "Bajo la Lengua",
+        "The High Dials", 
+        "Escepticos",
+        "Miel",
+        "Los Yetis",
+        "El Reves",
+        "Gekerott",
+        "Nix Builes",
+        "Carnal Strength"
+      ],
+      "entry_requirement": "1 kg de material reciclable (papel tipo archivo)"
+    },
+    "2016": {
+      "edition": "XI", 
+      "dates": "December 3-4, 2016",
+      "day_1_bands": [
+        "La Corporacion",
+        "Souland",
+        "Antojako NH3",
+        "Tiempos",
+        "Leviathan-1",
+        "Austin's Phobias",
+        "O.P.I",
+        "Insane-Acntni",
+        "Sick Morgan",
+        "Tenebrarum",
+        "Nepenties",
+        "La Pestilencia",
+        "Aterciopelados"
+      ],
+      "day_2_bands": [
+        "Lobo Estepario",
+        "New State", 
+        "Via Cerrada Ska",
+        "In Waves",
+        "Maor",
+        "Carrera 52",
+        "X01",
+        "La Reforma",
+        "Codigo Rojo",
+        "La Sinfoniska"
+      ],
+      "skateboard_tournament": "8° Torneo de Skateboarding",
+      "entry_requirement": "1kg de papel archivo reciclable"
+    },
+    "2017": {
+      "edition": "XII",
+      "dates": "December 2-3, 2017",
+      "day_2_bands": [
+        "Morbid"
+      ],
+      "day_3_bands": [
+        "Nadie",
+        "Sodoma",
+        "Huesos Genta",
+        "Monday",
+        "New State",
+        "Sunday"
+      ],
+      "additional_bands": [
+        "Organismos",
+        "Nervo Chaos", 
+        "Muyzkkubon",
+        "Los Falsos",
+        "Grito",
+        "Sin Espetu",
+        "dos Huerfartos",
+        "MLT",
+        "Cafe Colombia",
+        "ARY",
+        "The May Day",
+        "Kelaia",
+        "La Toma",
+        "La Congoja",
+        "Sutra",
+        "Mullet",
+        "Poiesis",
+        "Pulsion",
+        "Silsant",
+        "Polisacarida"
+      ],
+      "entry_requirement": "1kg de alimentos no perecederos y 1kg de papel reciclable"
+    },
+    "2018": {
+      "edition": "XIII", 
+      "dates": "December 1-2, 2018",
+      "day_1_bands": [
+        "Procesx",
+        "Rodrigo D",
+        "Civil Criminal",
+        "Titan",
+        "Los Malkavian", 
+        "La Colombia",
+        "Abandon Light",
+        "La Banda de Don Gatto",
+        "Sesenta y Cinco Tranquetilla",
+        "Austin's Phobias",
+        "Spasm",
+        "Rotten Noise",
+        "Tiempos",
+        "De Bruces a Mi",
+        "3 Vasos",
+        "Vasco MC"
+      ],
+      "day_2_bands": [
+        "Reincidentes",
+        "Detective Wadd",
+        "Netanya",
+        "Bajotierra",
+        "Wanady",
+        "Alkolirykoz", 
+        "Pornografia Para Ciegos",
+        "Lobo Estepario",
+        "Ezkizofrenia",
+        "Tierra de Poco",
+        "Black Typhoon"
+      ],
+      "entry_requirement": "1kg de alimento no perecedero o comida para perros o gatos"
+    },
+    "2020": {
+      "edition": "XV",
+      "date": "November 28, 2020",
+      "format": "Transmision en Vivo (Live Stream)",
+      "theme": "15 Años",
+      "platform": "Facebook y Youtube",
+      "participating_bands": [
+        "Militantex",
+        "Nefentes", 
+        "TheVibe",
+        "Asuntos Pendientes",
+        "La Badband",
+        "Arrierians",
+        "Netanya",
+        "Lobo Estepario",
+        "Black Mulatto",
+        "Kelaia",
+        "O.D.I.O",
+        "Los Transeuntes",
+        "Carrera 52",
+        "Manicomio Funk",
+        "Kasius",
+        "Ruinactiva",
+        "Cryptic Mass",
+        "Rotten Noise",
+        "Nukleus",
+        "Te de Ferro",
+        "Psy Proyect",
+        "General Bong",
+        "Niquitown",
+        "Goliat",
+        "Prismatic Shapes",
+        "Los Falsos",
+        "Tadeo AA",
+        "Akritud",
+        "Ultimo Rekurso",
+        "Rufatrufa",
+        "Subversion X"
+      ],
+      "special_notes": "Virtual edition due to COVID-19 pandemic"
+    },
+    "2021": {
+      "dates": "December 17-18, 2021",
+      "friday_bands": [
+        "Los Suziox",
+        "I.R.A", 
+        "El Piloto Ciego",
+        "Pegado",
+        "Civil Criminal",
+        "Rotten Noise",
+        "Poiesis y Animal",
+        "Abimelec",
+        "M.L.T",
+        "Into The Fucking Grave",
+        "Disparo"
+      ],
+      "saturday_bands": [
+        "Doctor Krapula",
+        "Carrera 52",
+        "Fauna Callejera",
+        "Sonido Natural",
+        "La Furruska",
+        "Salomon",
+        "Kitsigabu",
+        "Cafe Colombia", 
+        "Souland Band",
+        "Deo Volente",
+        "Feel Back"
+      ],
+      "entry_requirement": "2 kilos de concentrado para perro o gato"
+    },
+    "2024": {
+      "edition": "XX",
+      "date": "December 15, 2024",
+      "theme": "XX Años - Toda Una Historia",
+      "anniversary": "20th Anniversary",
+      "bands": [
+        "Margarita Siempre Viva",
+        "The Psychokiller",
+        "Kukos Band",
+        "La Toma",
+        "Polaris Project",
+        "Night Temptations", 
+        "Escoliosis Colectiva",
+        "Hermanos de Leche",
+        "Ojo de Poeta",
+        "Friolento Rap Core",
+        "Muluc",
+        "Civil Criminal",
+        "Souland",
+        "Supernativo"
+      ],
+      "entry": "Libre (Free Entry)",
+      "start_time": "12:00"
+    }
+  },
+  "recurring_features": {
+    "skateboard_tournaments": "Most editions include skateboard competitions",
+    "charitable_entry": "Most years require donations of recyclable materials or food instead of money",
+    "venue_consistency": "Consistently held at Parqueadero del Estadio Alberto Grisales",
+    "local_and_international_acts": "Mix of Colombian and international rock/metal bands",
+    "multi_day_format": "Usually 2-day weekend festival in November or December"
+  },
+  "notable_headliners_over_years": [
+    "Onslaught (UK)",
+    "Masacre (Colombia)", 
+    "Aterciopelados (Colombia)",
+    "Doctor Krapula (Colombia)",
+    "Reincidentes (Spain)",
+    "La Pestilencia (Colombia)",
+    "Eknymosis (Colombia)"
+  ]
+}

@@ -1,0 +1,430 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "metadata": {
+    "title": "Festival Internacional Rock al Rio",
+    "description": "Annual international rock festival held in Rionegro, Antioquia, Colombia",
+    "festival_type": "Rock/Metal Music Festival",
+    "country": "Colombia",
+    "city": "Rionegro, Antioquia",
+    "venue": "Parqueadero del Estadio Alberto Grisales",
+    "language": "Spanish",
+    "last_updated": "2025-06-17",
+    "total_flyers": 12,
+    "years_active": [2009, 2010, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2020, 2021, 2022, 2024]
+  },
+  "schema": {
+    "event": {
+      "description": "Schema for festival event data",
+      "properties": {
+        "year": "Year of the festival (integer)",
+        "image_file": "Filename of the festival flyer image",
+        "bands": "Array of band names that performed at the festival",
+        "headliners": "Array of headline bands featured prominently on the flyer",
+        "venue": "Location where the festival took place",
+        "dates": "Date or date range when the festival occurred",
+        "stages": "Different performance areas at the festival",
+        "sponsors": "Companies or brands that sponsored the event",
+        "ticket_info": "Information about ticket prices and purchasing",
+        "genre_focus": "Primary music genres featured at this year's festival",
+        "additional_info": "Any other relevant details about this year's event"
+      }
+    }
+  },
+  "events": [
+    {
+      "year": 2009,
+      "image_file": "flyer-2009.jpg",
+      "image_path": "/Users/joseb/Downloads/rock al rio/flyer-2009.jpg",
+      "bands": [
+        "Los Suziox", "La Furruska", "Onslaught", "Grujula", "Virgenes", "Maligros H2O", 
+        "Restos de Tragedia", "Caos Necesario", "Redentor", "Anarkore", "Maware", "Falling Sarcasktik", 
+        "Contagio", "Grunge", "Imperio de los Muertos", "Atrapados en el Tiempo", "Plankore", 
+        "Chokes", "Conmech", "Aphangak"
+      ],
+      "headliners": ["Onslaught", "Los Suziox"],
+      "venue": "Parqueadero del Estadio Alberto Grisales",
+      "dates": "November 21-22, 2009",
+      "start_time": "10:00 a.m.",
+      "stages": ["Main Stage"],
+      "sponsors": [],
+      "ticket_info": "Entry requirement: 1 kilo de grano (1 kilogram of grain donation)",
+      "genre_focus": ["Rock", "Metal", "Alternative", "Thrash Metal"],
+      "additional_info": "Edition IV - El festival de Rock más grande del oriente antioqueño",
+      "theme": "Diversidad y Tolerancia",
+      "daily_lineup": {
+        "saturday": [
+          "Grujula", "Virgenes", "Maligros H2O", "Restos de Tragedia", "Caos Necesario", 
+          "Redentor", "Anarkore", "Maware", "Los Suziox", "La Furruska"
+        ],
+        "sunday": [
+          "Falling Sarcasktik", "Contagio", "Grunge", "Imperio de los Muertos", 
+          "Atrapados en el Tiempo", "Plankore", "Chokes", "Conmech", "Aphangak"
+        ]
+      },
+      "international_acts": {
+        "Onslaught": {
+          "origin": "Inglaterra (England)",
+          "genre": "Thrash Metal"
+        }
+      },
+      "special_features": [
+        "CD de Rock al Rio 2009 para las primeras 50 personas que lleguen al evento",
+        "Charitable entry through grain donation instead of money",
+        "Mix of local Colombian and international acts"
+      ],
+      "visual_elements": {
+        "design_theme": "Skull and crossbones with guitars",
+        "color_scheme": "Red and orange gradient background",
+        "logo_style": "Drum kit with skull mascot"
+      }
+    },
+    {
+      "year": 2010,
+      "image_file": "flyer-2010.jpg",
+      "image_path": "/Users/joseb/Downloads/rock al rio/flyer-2010.jpg",
+      "bands": [
+        "Killing Time", "Mundo Muerto", "No Fear", "Punto Rojo", "Rejekts", "Rotten Noise", 
+        "Trauma", "Triple XXX", "Acrid", "Bajo Tierra", "Cran", "D.P.S", "Fleming", "Hazardous", 
+        "Insane Trip", "Mal Gusto", "Mecanica Humana", "ADN"
+      ],
+      "headliners": ["Killing Time", "Trauma"],
+      "venue": "Parqueadero del Estadio Alberto Grisales",
+      "dates": "November 13-14, 2010",
+      "stages": ["Main Stage", "Secondary Stage"],
+      "sponsors": [],
+      "ticket_info": "Entry requirement: 1 kilo de alimento no perecedero",
+      "genre_focus": ["Rock", "Metal", "Alternative"],
+      "additional_info": "Edition V"
+    },
+    {
+      "year": 2012,
+      "image_file": "flyer-2012.jpg",
+      "image_path": "/Users/joseb/Downloads/rock al rio/flyer-2012.jpg",
+      "bands": [
+        "Skeleton Witch", "Social Shit", "Pitbull", "Ultriging", "Los Rezios", "Estados Alterados",
+        "Highway", "Orion", "Take Over", "SUB", "Bazukazo", "Rotten Noise", "Sick Young", 
+        "Los Suziox", "Crooked Stave", "Mala Hierba", "Face Off", "Masacre"
+      ],
+      "headliners": ["Estados Alterados", "Masacre", "Los Suziox"],
+      "venue": "Parqueadero del Estadio Alberto Grisales",
+      "dates": "November 10-11, 2012",
+      "stages": ["Main Stage", "Secondary Stage"],
+      "sponsors": [],
+      "ticket_info": "Entry requirement: 1 kilo de material reciclable",
+      "genre_focus": ["Rock", "Metal", "Alternative"],
+      "additional_info": "Edition VII - Featured skateboarding competition",
+      "daily_lineup": {
+        "saturday": [
+          "Skeleton Witch", "Social Shit", "Pitbull", "Ultriging", "Los Rezios", "Estados Alterados",
+          "Highway", "Orion", "Take Over"
+        ],
+        "sunday": [
+          "SUB", "Bazukazo", "Rotten Noise", "Sick Young", "Los Suziox", 
+          "Crooked Stave", "Mala Hierba", "Face Off", "Masacre"
+        ]
+      }
+    },
+    {
+      "year": 2013,
+      "image_file": "flyer-2013.jpg",
+      "image_path": "/Users/joseb/Downloads/rock al rio/flyer-2013.jpg",
+      "bands": [
+        "Mascara", "Peregrinos", "Sutra", "The Other Planet", "Maware", "Civil Criminal", 
+        "Via Cerrada", "Ezkizofrenia", "Frankie Ha Muerto", "Unsigned Poems", "Arbol de Ojos", 
+        "Guillotina", "Masacre", "Consternacion", "Behind the Throne", "Memoria Insuficiente", 
+        "Mobydick", "Inframundox", "Muyzkkubun", "Chokke", "Ataque en Contra", "Eternal", 
+        "Nukleus", "Pornomotora", "Almalions", "Outernational"
+      ],
+      "headliners": ["Masacre", "Outernational"],
+      "venue": "Parqueadero del Estadio Alberto Grisales",
+      "dates": "November 9-10, 2013",
+      "stages": ["Main Stage", "Secondary Stage"],
+      "sponsors": [],
+      "ticket_info": "Entry requirement: 1 kg de material reciclable",
+      "genre_focus": ["Rock", "Metal", "Alternative"],
+      "additional_info": "Edition VII - Theme: Diversidad y Tolerancia. Featured skateboard tournament.",
+      "daily_schedule": {
+        "saturday": {
+          "13:00": "Mascara",
+          "13:45": "Peregrinos",
+          "14:30": "Sutra",
+          "15:15": "The Other Planet",
+          "16:00": "Maware",
+          "16:45": "Civil Criminal",
+          "17:30": "Via Cerrada",
+          "18:30": "Ezkizofrenia",
+          "19:20": "Frankie Ha Muerto",
+          "20:20": "Unsigned Poems",
+          "21:05": "Arbol de Ojos",
+          "22:05": "Guillotina",
+          "22:50": "Masacre"
+        },
+        "sunday": {
+          "13:00": "Consternacion",
+          "13:45": "Behind the Throne",
+          "14:30": "Memoria Insuficiente",
+          "15:30": "Mobydick",
+          "16:15": "Inframundox",
+          "17:00": "Muyzkkubun",
+          "17:45": "Chokke",
+          "18:50": "Ataque en Contra",
+          "19:35": "Eternal",
+          "20:20": "Nukleus",
+          "21:00": "Pornomotora",
+          "22:00": "Almalions",
+          "22:45": "Outernational"
+        }
+      }
+    },
+    {
+      "year": 2014,
+      "image_file": "flyer-2014.jpg",
+      "image_path": "/Users/joseb/Downloads/rock al rio/flyer-2014.jpg",
+      "bands": [
+        "Matute", "Un Rojo Reggae Band", "Aphangak", "Alfonso Espriella", "Revolver Plateado",
+        "New State", "Laudello", "Carrera 52", "Autogestion", "Hoja CK", "La Fragua",
+        "Su Silencio Permanece", "La Reforma", "Carajo", "Mojiganga", "Austin's Phobias",
+        "Duanima", "Eknymosis", "Athanator", "Consulado Popular", "Pandemia Mental",
+        "La Furruska", "Son Indeleble", "L-Mental", "Kukos Band", "Sobredosis"
+      ],
+      "headliners": ["Eknymosis", "Carajo"],
+      "venue": "Parqueadero del Estadio Alberto Grisales",
+      "dates": "November 8-9, 2014",
+      "stages": ["Main Stage", "Secondary Stage"],
+      "sponsors": [],
+      "ticket_info": "Entry requirement: 1 kg de material reciclable",
+      "genre_focus": ["Rock", "Metal", "Alternative"],
+      "additional_info": "Edition IX - Theme: Estados Alterados. Featured 7mo Torneo de Skateboard Rock al Rio."
+    },
+    {
+      "year": 2015,
+      "image_file": "flyer-2015.jpg",
+      "image_path": "/Users/joseb/Downloads/rock al rio/flyer-2015.jpg",
+      "bands": [
+        "Reencarnacion", "Abimelec I.R.A", "A.P.H", "Atrapados en el Tiempo", "Tappan", 
+        "Lignina", "Lisa Reggae", "Enepei", "Le Big Sur", "Alkaman", "Esteban Gira", 
+        "Aborigenes", "Julien K", "Aurora", "Bajo la Lengua", "The High Dials", 
+        "Escepticos", "Miel", "Los Yetis", "El Reves", "Gekerott", "Nix Builes", 
+        "Carnal Strength"
+      ],
+      "headliners": ["Julien K", "Los Yetis"],
+      "venue": "Parqueadero del Estadio Alberto Grisales",
+      "dates": "November 14-15, 2015",
+      "stages": ["Main Stage", "Secondary Stage"],
+      "sponsors": [],
+      "ticket_info": "Entry requirement: 1 kg de material reciclable (papel tipo archivo)",
+      "genre_focus": ["Rock", "Metal", "Alternative"],
+      "additional_info": "Edition X - Theme: Una Decada de Rock! (A Decade of Rock!)",
+      "daily_lineup": {
+        "saturday": [
+          "Reencarnacion", "Abimelec I.R.A", "A.P.H", "Atrapados en el Tiempo", "Tappan",
+          "Lignina", "Lisa Reggae", "Enepei", "Le Big Sur", "Alkaman", "Esteban Gira",
+          "Aborigenes"
+        ],
+        "sunday": [
+          "Julien K", "Aurora", "Bajo la Lengua", "The High Dials", "Escepticos",
+          "Miel", "Los Yetis", "El Reves", "Gekerott", "Nix Builes", "Carnal Strength"
+        ]
+      }
+    },
+    {
+      "year": 2016,
+      "image_file": "flyer-2016.jpg",
+      "image_path": "/Users/joseb/Downloads/rock al rio/flyer-2016.jpg",
+      "bands": [
+        "La Corporacion", "Souland", "Antojako NH3", "Tiempos", "Leviathan-1", 
+        "Austin's Phobias", "O.P.I", "Insane-Acntni", "Sick Morgan", "Tenebrarum", 
+        "Nepenties", "La Pestilencia", "Aterciopelados", "Lobo Estepario", "New State", 
+        "Via Cerrada Ska", "In Waves", "Maor", "Carrera 52", "X01", "La Reforma", 
+        "Codigo Rojo", "La Sinfoniska"
+      ],
+      "headliners": ["Aterciopelados", "La Pestilencia"],
+      "venue": "Parqueadero del Estadio Alberto Grisales",
+      "dates": "December 3-4, 2016",
+      "stages": ["Main Stage", "Secondary Stage"],
+      "sponsors": [],
+      "ticket_info": "Entry requirement: 1kg de papel archivo reciclable",
+      "genre_focus": ["Rock", "Metal", "Alternative"],
+      "additional_info": "Edition XI - Featured 8° Torneo de Skateboarding",
+      "daily_lineup": {
+        "day_1": [
+          "La Corporacion", "Souland", "Antojako NH3", "Tiempos", "Leviathan-1", 
+          "Austin's Phobias", "O.P.I", "Insane-Acntni", "Sick Morgan", "Tenebrarum", 
+          "Nepenties", "La Pestilencia", "Aterciopelados"
+        ],
+        "day_2": [
+          "Lobo Estepario", "New State", "Via Cerrada Ska", "In Waves", "Maor", 
+          "Carrera 52", "X01", "La Reforma", "Codigo Rojo", "La Sinfoniska"
+        ]
+      }
+    },
+    {
+      "year": 2017,
+      "image_file": "flyer-2017.jpg",
+      "image_path": "/Users/joseb/Downloads/rock al rio/flyer-2017.jpg",
+      "bands": [
+        "Morbid", "Nadie", "Sodoma", "Huesos Genta", "Monday", "New State", "Sunday",
+        "Organismos", "Nervo Chaos", "Muyzkkubon", "Los Falsos", "Grito", "Sin Espetu",
+        "dos Huerfartos", "MLT", "Cafe Colombia", "ARY", "The May Day", "Kelaia",
+        "La Toma", "La Congoja", "Sutra", "Mullet", "Poiesis", "Pulsion", "Silsant",
+        "Polisacarida"
+      ],
+      "headliners": ["Morbid", "Nervo Chaos"],
+      "venue": "Parqueadero del Estadio Alberto Grisales",
+      "dates": "December 2-3, 2017",
+      "stages": ["Main Stage", "Secondary Stage"],
+      "sponsors": [],
+      "ticket_info": "Entry requirement: 1kg de alimentos no perecederos y 1kg de papel reciclable",
+      "genre_focus": ["Rock", "Metal", "Alternative"],
+      "additional_info": "Edition XII",
+      "daily_lineup": {
+        "day_2": ["Morbid"],
+        "day_3": ["Nadie", "Sodoma", "Huesos Genta", "Monday", "New State", "Sunday"]
+      }
+    },
+    {
+      "year": 2018,
+      "image_file": "flyer-2018.jpg",
+      "image_path": "/Users/joseb/Downloads/rock al rio/flyer-2018.jpg",
+      "bands": [
+        "Procesx", "Rodrigo D", "Civil Criminal", "Titan", "Los Malkavian", "La Colombia",
+        "Abandon Light", "La Banda de Don Gatto", "Sesenta y Cinco Tranquetilla", "Austin's Phobias",
+        "Spasm", "Rotten Noise", "Tiempos", "De Bruces a Mi", "3 Vasos", "Vasco MC",
+        "Reincidentes", "Detective Wadd", "Netanya", "Bajotierra", "Wanady", "Alkolirykoz",
+        "Pornografia Para Ciegos", "Lobo Estepario", "Ezkizofrenia", "Tierra de Poco", "Black Typhoon"
+      ],
+      "headliners": ["Reincidentes", "Rodrigo D"],
+      "venue": "Parqueadero del Estadio Alberto Grisales",
+      "dates": "December 1-2, 2018",
+      "stages": ["Main Stage", "Secondary Stage"],
+      "sponsors": [],
+      "ticket_info": "Entry requirement: 1kg de alimento no perecedero o comida para perros o gatos",
+      "genre_focus": ["Rock", "Metal", "Alternative"],
+      "additional_info": "Edition XIII",
+      "daily_lineup": {
+        "day_1": [
+          "Procesx", "Rodrigo D", "Civil Criminal", "Titan", "Los Malkavian", "La Colombia",
+          "Abandon Light", "La Banda de Don Gatto", "Sesenta y Cinco Tranquetilla", "Austin's Phobias",
+          "Spasm", "Rotten Noise", "Tiempos", "De Bruces a Mi", "3 Vasos", "Vasco MC"
+        ],
+        "day_2": [
+          "Reincidentes", "Detective Wadd", "Netanya", "Bajotierra", "Wanady", "Alkolirykoz",
+          "Pornografia Para Ciegos", "Lobo Estepario", "Ezkizofrenia", "Tierra de Poco", "Black Typhoon"
+        ]
+      }
+    },
+    {
+      "year": 2020,
+      "image_file": "flyer-2020.jpg",
+      "image_path": "/Users/joseb/Downloads/rock al rio/flyer-2020.jpg",
+      "bands": [
+        "Militantex", "Nefentes", "TheVibe", "Asuntos Pendientes", "La Badband",
+        "Arrierians", "Netanya", "Lobo Estepario", "Black Mulatto", "Kelaia",
+        "O.D.I.O", "Los Transeuntes", "Carrera 52", "Manicomio Funk", "Kasius",
+        "Ruinactiva", "Cryptic Mass", "Rotten Noise", "Nukleus", "Te de Ferro",
+        "Psy Proyect", "General Bong", "Niquitown", "Goliat", "Prismatic Shapes",
+        "Los Falsos", "Tadeo AA", "Akritud", "Ultimo Rekurso", "Rufatrufa",
+        "Subversion X"
+      ],
+      "headliners": [],
+      "venue": "Virtual - Facebook & Youtube",
+      "dates": "November 28, 2020",
+      "stages": ["Virtual Stream"],
+      "sponsors": [],
+      "ticket_info": "",
+      "genre_focus": ["Rock", "Metal", "Alternative"],
+      "additional_info": "Edition XV - Theme: 15 Años. Virtual edition due to COVID-19 pandemic. Live streamed on Facebook and Youtube.",
+      "format": "Transmision en Vivo (Live Stream)"
+    },
+    {
+      "year": 2021,
+      "image_file": "flyer-2021.jpeg",
+      "image_path": "/Users/joseb/Downloads/rock al rio/flyer-2021.jpeg",
+      "bands": [
+        "Los Suziox", "I.R.A", "El Piloto Ciego", "Pegado", "Civil Criminal", "Rotten Noise",
+        "Poiesis y Animal", "Abimelec", "M.L.T", "Into The Fucking Grave", "Disparo",
+        "Doctor Krapula", "Carrera 52", "Fauna Callejera", "Sonido Natural",
+        "La Furruska", "Salomon", "Kitsigabu", "Cafe Colombia", "Souland Band",
+        "Deo Volente", "Feel Back"
+      ],
+      "headliners": ["Doctor Krapula", "Los Suziox", "I.R.A"],
+      "venue": "Parqueadero del Estadio Alberto Grisales",
+      "dates": "December 17-18, 2021",
+      "stages": ["Main Stage", "Secondary Stage"],
+      "sponsors": [],
+      "ticket_info": "Entry requirement: 2 kilos de concentrado para perro o gato",
+      "genre_focus": ["Rock", "Metal", "Alternative"],
+      "additional_info": "Returned to in-person format after 2020's virtual edition",
+      "daily_lineup": {
+        "friday": [
+          "Los Suziox", "I.R.A", "El Piloto Ciego", "Pegado", "Civil Criminal",
+          "Rotten Noise", "Poiesis y Animal", "Abimelec", "M.L.T", "Into The Fucking Grave",
+          "Disparo"
+        ],
+        "saturday": [
+          "Doctor Krapula", "Carrera 52", "Fauna Callejera", "Sonido Natural",
+          "La Furruska", "Salomon", "Kitsigabu", "Cafe Colombia", "Souland Band",
+          "Deo Volente", "Feel Back"
+        ]
+      }
+    },
+    {
+      "year": 2022,
+      "image_file": "flyer-2022.jpg",
+      "image_path": "/Users/joseb/Downloads/rock al rio/flyer-2022.jpg",
+      "bands": [
+        "La Gurtas", "I.R.A", "Nepentes", "Reisen", "Secret Tension", "The Psychokiller",
+        "Dizatel", "Akritud", "La Severa Matacera", "Montegallo RC",
+        "El Color Prohibido", "Rotten Noise"
+      ],
+      "headliners": ["La Severa Matacera", "I.R.A"],
+      "venue": "Parqueadero del Estadio Alberto Grisales",
+      "dates": "December 17, 2022",
+      "stages": ["Main Stage", "Secondary Stage"],
+      "sponsors": [],
+      "ticket_info": "Libre (Free Entry)",
+      "genre_focus": ["Rock", "Metal", "Alternative", "Ska"],
+      "additional_info": "Edition XVII"
+    },
+    {
+      "year": 2024,
+      "image_file": "flyer-2024.jpg",
+      "image_path": "/Users/joseb/Downloads/rock al rio/flyer-2024.jpg",
+      "bands": [
+        "Margarita Siempre Viva", "The Psychokiller", "Kukos Band", "La Toma",
+        "Polaris Project", "Night Temptations", "Escoliosis Colectiva", "Hermanos de Leche",
+        "Ojo de Poeta", "Friolento Rap Core", "Muluc", "Civil Criminal", "Souland",
+        "Supernativo"
+      ],
+      "headliners": ["The Psychokiller", "Souland"],
+      "venue": "Parqueadero del Estadio Alberto Grisales",
+      "dates": "December 15, 2024",
+      "stages": ["Main Stage"],
+      "sponsors": [],
+      "ticket_info": "Libre (Free Entry)",
+      "genre_focus": ["Rock", "Metal", "Alternative"],
+      "additional_info": "Edition XX - Theme: XX Años - Toda Una Historia. 20th Anniversary celebration.",
+      "start_time": "12:00"
+    }
+  ],
+  "relationships": {
+    "recurring_bands": [],
+    "evolution": {
+      "description": "Information about how the festival has evolved over time",
+      "venue_changes": [],
+      "size_progression": "The festival appears to have grown from its first edition in 2009 to become an established annual event",
+      "genre_shifts": "While maintaining a rock focus, the festival may have incorporated more diverse subgenres over time"
+    },
+    "notable_years": {
+      "description": "Years that were particularly significant for the festival",
+      "2009": "Inaugural festival",
+      "2020-2021": "Festivals during COVID-19 pandemic"
+    }
+  },
+  "tips_for_ai_analysis": {
+    "flyer_recognition": "Festival flyers typically feature band names in different font sizes based on importance, with headliners in largest text",
+    "context_clues": "Look for dates, venue information, ticket prices, and sponsor logos usually placed at the bottom of flyers",
+    "band_hierarchy": "The visual layout of band names indicates their prominence in the festival lineup",
+    "temporal_context": "Consider which bands were active and popular in each respective year"
+  }
+}
