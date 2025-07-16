@@ -1,6 +1,6 @@
 "use client";
 import Image from 'next/image';
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback, useMemo } from 'react';
 
 export default function Hero() {
   const [scrollY, setScrollY] = useState(0);
@@ -8,7 +8,7 @@ export default function Hero() {
   const [displayedImages, setDisplayedImages] = useState<string[]>([]);
 
   // All available festival images
-  const allFestivalImages = [
+  const allFestivalImages = useMemo(() => [
     '107900868_3085814654807843_6574709192092760958_n.jpg',
     '109056503_3085812311474744_1641677095587906692_n.jpg',
     '109537678_3085814848141157_2426832215297922531_n.jpg',
@@ -45,7 +45,7 @@ export default function Hero() {
     '91174211_2811338725588772_6225536244940537856_n.jpg',
     '92326746_2834378113284833_5465547030363373568_n.jpg',
     '94088615_2866358446753466_8754927457187921920_n.jpg',
-  ];
+  ], []);
 
   // Function to get random selection of images
   const getRandomImages = useCallback((count: number) => {
