@@ -11,7 +11,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-black/80 backdrop-blur-sm z-50">
+    <header className="fixed top-0 left-0 w-full bg-black backdrop-blur-sm z-50">
       <div className="container mx-auto flex justify-between items-center py-4">
         <Link href="/" className="flex items-center">
           <div className="relative h-12 w-48">
@@ -26,7 +26,7 @@ export default function Navbar() {
         </Link>
 
         {/* Menú de navegación para escritorio */}
-        <nav className="hidden md:flex space-x-8">
+        <nav className="hidden md:flex space-x-8 items-center">
           <Link href="#quienes-somos" className="text-white hover:text-blue-400 transition-colors">
             ¿Quiénes somos?
           </Link>
@@ -35,6 +35,9 @@ export default function Navbar() {
           </Link>
           <Link href="#contacto" className="text-white hover:text-blue-400 transition-colors">
             Contacto
+          </Link>
+          <Link href="/registro" className="px-4 py-2 bg-accent text-black font-semibold rounded-md hover:bg-opacity-90 transition-colors">
+            Inscribete aquí
           </Link>
         </nav>
 
@@ -75,6 +78,13 @@ export default function Navbar() {
             onClick={() => setIsMenuOpen(false)}
           >
             Contacto
+          </Link>
+          <Link 
+            href="/registro" 
+            className="mx-4 px-4 py-2 bg-accent text-black font-semibold rounded-md hover:bg-opacity-90 transition-colors"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Inscribete aquí
           </Link>
         </nav>
       </div>

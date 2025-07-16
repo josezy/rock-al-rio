@@ -38,8 +38,7 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">Contacto</h3>
             <p className="mb-2">📍 Parqueadero del Estadio Alberto Grisales</p>
             <p className="mb-2">🏛️ Rionegro, Antioquia, Colombia</p>
-            <p className="mb-2">📧 <a href="mailto:info@rockalrio.com" className="text-accent hover:underline">info@rockalrio.com</a></p>
-            <p className="mb-6">📞 +57 123 456 7890</p>
+            <p className="mb-2">📧 <a href="mailto:contacto@rockalriocolombia.org" className="text-accent hover:underline">contacto@rockalriocolombia.org</a></p>
             
             <h4 className="text-lg font-semibold mb-3">Síguenos</h4>
             <div className="flex space-x-4">

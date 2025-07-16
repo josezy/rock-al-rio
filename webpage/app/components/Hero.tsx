@@ -153,13 +153,19 @@ export default function Hero() {
           </div>
           
           {/* Ver más fotos button */}
-          <div className="mt-6">
+          <div className="mt-6 flex gap-4 justify-center">
             <button
               onClick={loadMorePhotos}
               className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white rounded-full font-medium transition-all duration-300 backdrop-blur-sm border border-white/20 hover:border-white/40 cursor-pointer"
             >
               Ver más fotos
             </button>
+            <a
+              href="/registro"
+              className="px-6 py-3 bg-accent text-black font-semibold rounded-full hover:bg-opacity-90 transition-all duration-300"
+            >
+              Inscribete aquí
+            </a>
           </div>
         </div>
       </div>

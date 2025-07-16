@@ -64,6 +64,19 @@ export default function CountDown() {
             : 'opacity-0 translate-y-10'
         }`}>Próxima edición</h2>
         
+        <div className={`text-center mb-8 transition-all duration-1000 delay-200 ${
+          countdownSection.isIntersecting 
+            ? 'opacity-100 translate-y-0' 
+            : 'opacity-0 translate-y-10'
+        }`}>
+          <a
+            href="/registro"
+            className="px-6 py-3 bg-accent text-black font-semibold rounded-md hover:bg-opacity-90 transition-all duration-300"
+          >
+            Inscribete aquí
+          </a>
+        </div>
+        
         <div className={`flex flex-wrap justify-center gap-4 md:gap-8 transition-all duration-1000 delay-300 ${
           countdownSection.isIntersecting 
             ? 'opacity-100 translate-y-0' 
@@ -95,9 +108,12 @@ export default function CountDown() {
             ? 'opacity-100 translate-y-0' 
             : 'opacity-0 translate-y-10'
         }`}>
-          <button className="px-6 py-3 bg-accent text-black font-bold rounded-md hover:bg-opacity-90 transition-all">
-            ¡Reserva tus entradas ahora!
-          </button>
+          <p className="text-lg md:text-xl text-black font-semibold">
+            15 de Noviembre, 2025 - 12:00 PM COT
+          </p>
+          <p className="text-sm md:text-base text-black mt-2">
+            Parqueadero del Estadio Alberto Grisales, Rionegro, Antioquia
+          </p>
         </div>
       </div>
     </div>
