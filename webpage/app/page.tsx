@@ -7,7 +7,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col">
+    <main className="flex min-h-screen flex-col pt-12">
       <Navbar />
       <Hero />
       <FestivalInfo />

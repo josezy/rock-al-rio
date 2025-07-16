@@ -11,10 +11,10 @@ export default function Navbar() {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-black backdrop-blur-sm z-50">
+    <header className="fixed top-0 left-0 w-full bg-black backdrop-blur-sm z-50 py-2">
       <div className="container mx-auto flex justify-between items-center py-4">
         <Link href="/" className="flex items-center">
-          <div className="relative h-12 w-48">
+          <div className="relative h-12 w-32">
             <Image 
               src="/logo.jpg" 
               alt="Rock al Río" 
@@ -27,13 +27,13 @@ export default function Navbar() {
 
         {/* Menú de navegación para escritorio */}
         <nav className="hidden md:flex space-x-8 items-center">
-          <Link href="#quienes-somos" className="text-white hover:text-blue-400 transition-colors">
+          <Link href="/#quienes-somos" className="text-white hover:text-blue-400 transition-colors">
             ¿Quiénes somos?
           </Link>
-          <Link href="#historia" className="text-white hover:text-blue-400 transition-colors">
+          <Link href="/#historia" className="text-white hover:text-blue-400 transition-colors">
             Historia
           </Link>
-          <Link href="#contacto" className="text-white hover:text-blue-400 transition-colors">
+          <Link href="/#contacto" className="text-white hover:text-blue-400 transition-colors">
             Contacto
           </Link>
           <Link href="/registro" className="px-4 py-2 bg-accent text-black font-semibold rounded-md hover:bg-opacity-90 transition-colors">
@@ -59,21 +59,21 @@ export default function Navbar() {
       <div className={`md:hidden bg-black/95 backdrop-blur-md transition-all duration-300 overflow-hidden ${isMenuOpen ? 'max-h-64' : 'max-h-0'}`}>
         <nav className="container mx-auto py-4 flex flex-col space-y-4">
           <Link 
-            href="#quienes-somos" 
+            href="/#quienes-somos" 
             className="px-4 py-2 text-white hover:text-blue-400 transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
             ¿Quiénes somos?
           </Link>
           <Link 
-            href="#historia" 
+            href="/#historia" 
             className="px-4 py-2 text-white hover:text-blue-400 transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
             Historia
           </Link>
           <Link 
-            href="#contacto" 
+            href="/#contacto" 
             className="px-4 py-2 text-white hover:text-blue-400 transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
