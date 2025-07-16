@@ -6,8 +6,11 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
-            <h3 className="text-xl font-bold mb-4">Rock al Río</h3>
-            <p className="mb-4">El festival de rock más importante de Latinoamérica, uniendo generaciones a través de la música desde 2010.</p>
+            <h3 className="text-xl font-bold mb-4">Festival Internacional Rock al Río</h3>
+            <p className="mb-4">
+              El festival de rock más grande del oriente antioqueño. 20 años de historia cultural en Rionegro, Antioquia, 
+              uniendo generaciones a través de la música desde 2009.
+            </p>
           </div>
           
           <div>
@@ -33,13 +36,15 @@ export default function Footer() {
           
           <div>
             <h3 className="text-xl font-bold mb-4">Contacto</h3>
-            <p className="mb-2">Correo: <a href="mailto:info@rockalrio.com" className="text-accent hover:underline">info@rockalrio.com</a></p>
-            <p className="mb-6">Teléfono: +57 123 456 7890</p>
+            <p className="mb-2">📍 Parqueadero del Estadio Alberto Grisales</p>
+            <p className="mb-2">🏛️ Rionegro, Antioquia, Colombia</p>
+            <p className="mb-2">📧 <a href="mailto:info@rockalrio.com" className="text-accent hover:underline">info@rockalrio.com</a></p>
+            <p className="mb-6">📞 +57 123 456 7890</p>
             
             <h4 className="text-lg font-semibold mb-3">Síguenos</h4>
             <div className="flex space-x-4">
               <a 
-                href="https://facebook.com" 
+                href="https://www.facebook.com/Rockalriofest" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="hover:text-accent transition-colors"
@@ -50,7 +55,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a 
-                href="https://instagram.com" 
+                href="https://www.instagram.com/rockalriofest/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="hover:text-accent transition-colors"
@@ -61,7 +66,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a 
-                href="https://youtube.com" 
+                href="https://www.youtube.com/@RockAlRioColombia" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="hover:text-accent transition-colors"
@@ -76,7 +81,7 @@ export default function Footer() {
         </div>
         
         <div className="mt-12 pt-6 border-t border-gray-700 text-center">
-          <p>&copy; {new Date().getFullYear()} Rock al Río. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Festival Internacional Rock al Río. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

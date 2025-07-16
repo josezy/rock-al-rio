@@ -11,12 +11,12 @@ export default function Navbar() {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-[#de0000]/80 backdrop-blur-sm z-50">
+    <header className="fixed top-0 left-0 w-full bg-black/80 backdrop-blur-sm z-50">
       <div className="container mx-auto flex justify-between items-center py-4">
         <Link href="/" className="flex items-center">
           <div className="relative h-12 w-48">
             <Image 
-              src="https://placehold.co/192x48/1a1a1a/ffffff?text=Rock+al+Rio" 
+              src="/logo.jpg" 
               alt="Rock al Río" 
               fill 
               style={{ objectFit: 'contain' }}

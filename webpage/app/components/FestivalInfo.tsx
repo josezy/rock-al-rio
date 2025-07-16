@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import ImageGallery from './ImageGallery';
+import FestivalSlider from './FestivalSliders';
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 
 export default function FestivalInfo() {
@@ -10,7 +11,7 @@ export default function FestivalInfo() {
   const historySection = useIntersectionObserver();
 
   return (
-    <section id="quienes-somos" className="py-20 bg-gray-light">
+    <section id="quienes-somos" className="py-16 bg-gray-light">
       <div className="container mx-auto px-4">
         <div 
           ref={titleSection.ref}
@@ -37,14 +38,16 @@ export default function FestivalInfo() {
           <div className="transition-all duration-1000 delay-200">
             <h3 className="text-2xl md:text-3xl font-bold mb-6">¿Quiénes Somos?</h3>
             <p className="mb-4">
-              Rock al Río es el festival de música rock más importante de Latinoamérica. Desde su primera edición, 
-              nos hemos dedicado a traer los mejores artistas nacionales e internacionales para crear una experiencia 
-              única para todos los amantes del rock.
+              El Festival Internacional Rock al Río es el evento musical más importante del oriente antioqueño, 
+              con <strong>20 años de historia cultural ininterrumpida</strong> en Rionegro, Antioquia. 
+              Nos consolidamos como un catalizador excepcional de desarrollo socioeconómico y cultural, 
+              reconocido como <strong>"El festival de Rock más grande del oriente antioqueño"</strong>.
             </p>
             <p>
-              Nuestro objetivo es promover la cultura musical y ofrecer un espacio donde distintas generaciones 
-              puedan disfrutar juntas de los sonidos que han marcado la historia del rock, así como de las nuevas 
-              tendencias que definirán el futuro del género.
+              Con <strong>más de 300 bandas participantes</strong> a lo largo de nuestra historia y un modelo 
+              innovador de entrada solidaria, promovemos la diversidad cultural, la cohesión social y el 
+              desarrollo del talento local, creando un espacio donde la música trasciende para convertirse 
+              en instrumento de transformación social.
             </p>
           </div>
           <div className={`relative h-80 rounded-lg overflow-hidden shadow-xl transition-all duration-1000 delay-400 ${
@@ -52,19 +55,14 @@ export default function FestivalInfo() {
               ? 'opacity-100 translate-x-0 scale-100' 
               : 'opacity-0 translate-x-10 scale-95'
           }`}>
-            <Image
-              src="https://placehold.co/600x320/dc2626/ffffff?text=Festival+Crowd"
-              alt="Multitud en Rock al Río"
-              fill
-              style={{ objectFit: 'cover' }}
-            />
+            <FestivalSlider type="crowd" className="h-full" />
           </div>
         </div>
 
         <div 
           id="historia" 
           ref={historySection.ref}
-          className={`grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20 transition-all duration-1000 ${
+          className={`grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16 transition-all duration-1000 ${
             historySection.isIntersecting 
               ? 'opacity-100 translate-x-0' 
               : 'opacity-0 translate-x-10'
@@ -75,24 +73,22 @@ export default function FestivalInfo() {
               ? 'opacity-100 translate-x-0 scale-100' 
               : 'opacity-0 -translate-x-10 scale-95'
           }`}>
-            <Image
-              src="https://placehold.co/600x320/dc2626/ffffff?text=Festival+Stage"
-              alt="Escenario de Rock al Río"
-              fill
-              style={{ objectFit: 'cover' }}
-            />
+            <FestivalSlider type="stage" className="h-full" />
           </div>
           <div className="order-1 md:order-2 transition-all duration-1000 delay-200">
             <h3 className="text-2xl md:text-3xl font-bold mb-6">Historia</h3>
             <p className="mb-4">
-              Fundado en 2010, Rock al Río ha crecido para convertirse en un referente cultural en Latinoamérica. 
-              Lo que comenzó como un pequeño festival local ahora atrae a más de 100,000 asistentes de todo el mundo 
-              cada año.
+              Fundado en <strong>2009</strong>, Rock al Río ha realizado <strong>13 ediciones exitosas </strong> 
+              hasta 2024, consolidándose como un referente cultural en el oriente antioqueño. Durante estos 
+              20 años, hemos presentado una programación multicultural que incluye bandas locales como 
+              Los Suziox, Masacre y Carrera 52, artistas nacionales como Aterciopelados, Doctor Krapula y 
+              La Pestilencia, y actos internacionales como Onslaught (Reino Unido) y Reincidentes (España).
             </p>
             <p>
-              A lo largo de nuestra historia, hemos tenido el honor de presentar a legendarias bandas de rock como 
-              Metallica, Foo Fighters, The Killers, Queens of the Stone Age, Arctic Monkeys, así como talento 
-              latinoamericano como Soda Stereo, Café Tacvba, Los Fabulosos Cadillacs y muchos más.
+              Nuestro festival ha demostrado <strong>adaptabilidad excepcional</strong>, incluso realizando 
+              una edición virtual en 2020 durante la pandemia COVID-19. Con temáticas como "Diversidad y 
+              Tolerancia" (2009, 2013) y "XX Años - Toda Una Historia" (2024), hemos promovido el diálogo 
+              intercultural y la cohesión social en nuestra región.
             </p>
           </div>
         </div>

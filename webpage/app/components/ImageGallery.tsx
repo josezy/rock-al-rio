@@ -1,6 +1,7 @@
 "use client";
 import { useState } from 'react';
 import Image from 'next/image';
+import FlyerSlider from './FlyerSlider';
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 
 type ImageItem = {
@@ -13,23 +14,25 @@ export default function ImageGallery() {
   const [activeImage, setActiveImage] = useState<number | null>(null);
   const gallerySection = useIntersectionObserver();
   
-  const galleryImages: ImageItem[] = [
-    { 
-      src: 'https://placehold.co/400x256/2563eb/ffffff?text=Rock+al+Rio+2021', 
-      alt: 'Momento memorable Rock al Río 2021',
-      year: 2021 
-    },
-    { 
-      src: 'https://placehold.co/400x256/2563eb/ffffff?text=Rock+al+Rio+2022', 
-      alt: 'Momento memorable Rock al Río 2022',
-      year: 2022
-    },
-    { 
-      src: 'https://placehold.co/400x256/2563eb/ffffff?text=Rock+al+Rio+2023', 
-      alt: 'Momento memorable Rock al Río 2023',
-      year: 2023 
-    },
+  const flyerImages = [
+    'flyer-2009.jpg',
+    'flyer-2013.jpg',
+    'flyer-2014.jpg',
+    'flyer-2015.jpg',
+    'flyer-2016.jpg',
+    'flyer-2017.jpg',
+    'flyer-2018.jpg',
+    'flyer-2020.jpg',
+    'flyer-2021.jpg',
+    'flyer-2022.jpg',
+    'flyer-2024.jpg',
   ];
+
+  const galleryImages: ImageItem[] = flyerImages.map((flyer, index) => ({
+    src: `/flyers/${flyer}`,
+    alt: `Festival flyer ${flyer.replace('flyer-', '').replace('.jpg', '')}`,
+    year: parseInt(flyer.replace('flyer-', '').replace('.jpg', ''))
+  }));
 
   const openModal = (index: number) => {
     setActiveImage(index);
@@ -67,41 +70,20 @@ export default function ImageGallery() {
   };
 
   return (
-    <div ref={gallerySection.ref} className="mt-16">
-      <h3 className={`text-2xl md:text-3xl font-bold mb-10 text-center transition-all duration-1000 ${
+    <div ref={gallerySection.ref}>
+      <h3 className={`text-2xl md:text-3xl font-bold text-center transition-all duration-1000 ${
         gallerySection.isIntersecting 
           ? 'opacity-100 translate-y-0' 
           : 'opacity-0 translate-y-10'
       }`}>Momentos Memorables</h3>
-      
-      {/* Gallery Grid */}
-      <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 transition-all duration-1000 delay-300 ${
+      <br/>
+      {/* Flyer Slider */}
+      <div className={`transition-all duration-1000 delay-300 ${
         gallerySection.isIntersecting 
           ? 'opacity-100 translate-y-0' 
           : 'opacity-0 translate-y-10'
       }`}>
-        {galleryImages.map((image, index) => (
-          <div 
-            key={index} 
-            className={`relative h-64 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all cursor-pointer delay-${index * 100 + 500} ${
-              gallerySection.isIntersecting 
-                ? 'opacity-100 translate-y-0 scale-100' 
-                : 'opacity-0 translate-y-5 scale-95'
-            }`}
-            onClick={() => openModal(index)}
-          >
-            <Image
-              src={image.src}
-              alt={image.alt}
-              fill
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              style={{ objectFit: 'cover' }}
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-4">
-              <p className="text-white font-semibold">Rock al Río {image.year}</p>
-            </div>
-          </div>
-        ))}
+        <FlyerSlider onImageClick={openModal} />
       </div>
 
       {/* Fullscreen Modal */}
