@@ -1,6 +1,5 @@
 "use client";
 import React from 'react';
-import Image from 'next/image';
 import ImageGallery from './ImageGallery';
 import FestivalSlider from './FestivalSliders';
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
@@ -41,7 +40,7 @@ export default function FestivalInfo() {
               El Festival Internacional Rock al Río es el evento musical más importante del oriente antioqueño, 
               con <strong>20 años de historia cultural ininterrumpida</strong> en Rionegro, Antioquia. 
               Nos consolidamos como un catalizador excepcional de desarrollo socioeconómico y cultural, 
-              reconocido como <strong>"El festival de Rock más grande del oriente antioqueño"</strong>.
+              reconocido como <strong>&ldquo;El festival de Rock más grande del oriente antioqueño&rdquo;</strong>.
             </p>
             <p>
               Con <strong>más de 300 bandas participantes</strong> a lo largo de nuestra historia y un modelo 
@@ -86,8 +85,8 @@ export default function FestivalInfo() {
             </p>
             <p>
               Nuestro festival ha demostrado <strong>adaptabilidad excepcional</strong>, incluso realizando 
-              una edición virtual en 2020 durante la pandemia COVID-19. Con temáticas como "Diversidad y 
-              Tolerancia" (2009, 2013) y "XX Años - Toda Una Historia" (2024), hemos promovido el diálogo 
+              una edición virtual en 2020 durante la pandemia COVID-19. Con temáticas como &ldquo;Diversidad y 
+              Tolerancia&rdquo; (2009, 2013) y &ldquo;XX Años - Toda Una Historia&rdquo; (2024), hemos promovido el diálogo 
               intercultural y la cohesión social en nuestra región.
             </p>
           </div>

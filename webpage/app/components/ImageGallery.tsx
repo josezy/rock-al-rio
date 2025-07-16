@@ -28,7 +28,7 @@ export default function ImageGallery() {
     'flyer-2024.jpg',
   ];
 
-  const galleryImages: ImageItem[] = flyerImages.map((flyer, index) => ({
+  const galleryImages: ImageItem[] = flyerImages.map((flyer) => ({
     src: `/flyers/${flyer}`,
     alt: `Festival flyer ${flyer.replace('flyer-', '').replace('.jpg', '')}`,
     year: parseInt(flyer.replace('flyer-', '').replace('.jpg', ''))

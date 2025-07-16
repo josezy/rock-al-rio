@@ -1,6 +1,6 @@
 "use client";
 import Image from 'next/image';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 
 export default function Hero() {
   const [scrollY, setScrollY] = useState(0);
@@ -48,15 +48,15 @@ export default function Hero() {
   ];
 
   // Function to get random selection of images
-  const getRandomImages = (count: number) => {
+  const getRandomImages = useCallback((count: number) => {
     const shuffled = [...allFestivalImages].sort(() => 0.5 - Math.random());
     return shuffled.slice(0, count);
-  };
+  }, [allFestivalImages]);
 
   // Initialize with random images
   useEffect(() => {
     setDisplayedImages(getRandomImages(10));
-  }, []);
+  }, [getRandomImages]);
 
   const loadMorePhotos = () => {
     const newImages = getRandomImages(10);
