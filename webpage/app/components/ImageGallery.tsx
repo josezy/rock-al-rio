@@ -1,6 +1,7 @@
 "use client";
 import { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import FlyerSlider from './FlyerSlider';
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 
@@ -71,6 +72,24 @@ export default function ImageGallery() {
 
   return (
     <div ref={gallerySection.ref}>
+      {/* Reporte Section */}
+      <div className={`text-center mb-8 transition-all duration-1000 ${
+        gallerySection.isIntersecting 
+          ? 'opacity-100 translate-y-0' 
+          : 'opacity-0 translate-y-10'
+      }`}>
+        <h3 className="text-2xl md:text-3xl font-bold text-center mb-4">Impacto del Festival</h3>
+        <p className="text-gray-600 max-w-2xl mx-auto mb-6">
+          Conoce más acerca del impacto socio-económico del festival durante su trayectoria y cómo Rock al Río ha contribuido al desarrollo cultural y económico de la región.
+        </p>
+        <Link 
+          href="/reporte" 
+          className="inline-block bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-3 px-6 rounded-lg transition-colors duration-300"
+        >
+          Ver Reporte de Impacto
+        </Link>
+      </div>
+
       <h3 className={`text-2xl md:text-3xl font-bold text-center transition-all duration-1000 ${
         gallerySection.isIntersecting 
           ? 'opacity-100 translate-y-0' 
