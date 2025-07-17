@@ -33,6 +33,9 @@ export default function Navbar() {
           <Link href="/#historia" className="text-white hover:text-blue-400 transition-colors">
             Historia
           </Link>
+          <Link href="/reporte" className="text-white hover:text-blue-400 transition-colors">
+            Reporte
+          </Link>
           <Link href="/#contacto" className="text-white hover:text-blue-400 transition-colors">
             Contacto
           </Link>
@@ -71,6 +74,13 @@ export default function Navbar() {
             onClick={() => setIsMenuOpen(false)}
           >
             Historia
+          </Link>
+          <Link 
+            href="/reporte" 
+            className="px-4 py-2 text-white hover:text-blue-400 transition-colors"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Reporte
           </Link>
           <Link 
             href="/#contacto" 

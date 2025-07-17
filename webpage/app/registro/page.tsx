@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import Layout from '../components/Layout';
 
 export const metadata: Metadata = {
   title: "Registro - Festival Internacional Rock al Río 2025",
@@ -42,10 +41,8 @@ export const metadata: Metadata = {
 
 export default function Registro() {
   return (
-    <div className="min-h-screen bg-gray-100">
-      <Navbar />
-      
-      <main className="pt-20 pb-12">
+    <Layout>
+      <div className="min-h-screen bg-gray-100 pt-8 pb-12">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl md:text-4xl font-bold text-center mb-8 text-gray-800">
@@ -72,12 +69,9 @@ export default function Registro() {
                 </iframe>
               </div>
             </div>
-
           </div>
         </div>
-      </main>
-      
-      <Footer />
-    </div>
+      </div>
+    </Layout>
   );
 }
