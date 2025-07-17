@@ -22,6 +22,15 @@ const nextConfig: NextConfig = {
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
   // Note: i18n configuration has been moved to app/[locale] structure in App Router
+  async redirects() {
+    return [
+      {
+        source: '/((?!mantenimiento).*)',
+        destination: '/mantenimiento',
+        permanent: false,
+      },
+    ];
+  },
 };
 
 
